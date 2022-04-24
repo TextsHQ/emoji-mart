@@ -40,8 +40,8 @@
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.0",
     "babel-plugin-transform-define": "^2.0.0",
-    "emoji-datasource": "^7.0.1",
-    "emojilib": "^3.0.2",
+    "emoji-datasource": "^14.0.0",
+    "emojilib": "^3.0.6",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.11.2",
     "inflection": "1.10.0",
@@ -79,6 +79,7 @@
     "build-storybook": "build-storybook",
     "prettier": "prettier --write \"{src,scripts,test,stories}/**/*.js\"",
     "prettier:check": "prettier --check \"{src,scripts,test,stories}/**/*.js\"",
+    "prepack": "npm run build:dist",
     "prepare": "npm run build:dist"
   },
   "size-limit": [
