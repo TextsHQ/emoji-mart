@@ -103,7 +103,7 @@ export default class NimbleEmojiIndex {
         return [this.emojis['-1'][skinTone]]
       }
 
-      var values = value.toLowerCase().split(/[\s|,|\-|_]+/),
+      var values = value.toLowerCase().split(/[\s|,|\-|]+/),
         allResults = []
 
       // only support 2 keywords? probably otherwise no results when intersecting
