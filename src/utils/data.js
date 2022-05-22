@@ -32,8 +32,9 @@ const buildSearch = (emoji) => {
       })
     })
   }
-
-  addToSearch(emoji.short_names, true)
+  
+  addToSearch(emoji.short_names, true) // this splits the keyword if it has more than one word
+  addToSearch(emoji.short_names, false) // this add the short names as is so they are also searchable
   addToSearch(emoji.name, true)
   addToSearch(emoji.keywords, false)
   addToSearch(emoji.emoticons, false)
