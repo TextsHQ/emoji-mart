@@ -40,9 +40,9 @@
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.0",
     "babel-plugin-transform-define": "^2.0.0",
+    "cross-env": "^7.0.3",
     "emoji-datasource": "^14.0.0",
     "emojilib": "^3.0.6",
-    "cross-env": "^7.0.3",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.11.2",
     "inflection": "1.10.0",
@@ -88,5 +88,6 @@
       "path": "dist-es/index.js",
       "limit": "82 KB"
     }
-  ]
+  ],
+  "packageManager": "yarn@4.4.0"
 }
